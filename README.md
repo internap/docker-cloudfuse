@@ -39,4 +39,5 @@ REGION=nyj01
 
 # License
 
-docker-cloudfuse is distributed under Apache 2.0 LICENSE.
+docker-cloudfuse is distributed under [Apache License Version 2.0](LICENSE).
+
