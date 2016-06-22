@@ -1,6 +1,6 @@
 # docker-cloudfuse
 
-DockerHub buildtag  [![Docker Build Status](https://hub.docker.com/r/internap/cloudfuse)](https://hub.docker.com/r/internap/cloudfuse)
+[![pulls](https://img.shields.io/docker/pulls/internap/cloudfuse.png?maxAge=86400)](https://hub.docker.com/r/internap/cloudfuse/) [![stars](https://img.shields.io/docker/stars/internap/cloudfuse.png?maxAge=86400)](https://hub.docker.com/r/internap/cloudfuse/)
 
 Recipe for building and launching [cloudfuse volume](https://github.com/fordodone/cloudfuse)
 
@@ -43,3 +43,6 @@ REGION=nyj01
 
 docker-cloudfuse is distributed under [Apache License Version 2.0](LICENSE).
 
+# Contributing
+
+Feel free to raise issues and send some pull request, we'll be happy to look at them!
