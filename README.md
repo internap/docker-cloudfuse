@@ -1,5 +1,7 @@
 # docker-cloudfuse
 
+DockerHub buildtag  [![Docker Build Status](https://hub.docker.com/r/internap/cloudfuse)](https://hub.docker.com/r/internap/cloudfuse)
+
 Recipe for building and launching [cloudfuse volume](https://github.com/fordodone/cloudfuse)
 
 ## Start
