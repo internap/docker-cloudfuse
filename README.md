@@ -26,7 +26,16 @@ docker run -d --cap-add SYS_ADMIN --device /dev/fuse internap/docker-cloudfuse
 ## Example
 
 ```sh
-docker run -d --env-file ./envfile-sample --cap-add SYS_ADMIN --device /dev/fuse internap/docker-cloudfuse
+docker run -d --env-file ./envfile-sample --cap-add SYS_ADMIN --device /dev/fuse internap/cloudfuse
+```
+
+If you encounter this error: 
+```
+fusermount: mount failed: Operation not permitted
+```
+Use this docker command:
+```sh
+docker run -d --privileged --env-file ./envfile-sample --cap-add SYS_ADMIN --device /dev/fuse internap/cloudfuse
 ```
 
 envfile-sample:
